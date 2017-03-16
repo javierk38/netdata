@@ -15,7 +15,7 @@ echo "deb http://ftp.us.debian.org/debian/ jessie main" > /etc/apt/sources.list
 
 # install dependencies for build
 
-apt-get -qq update
+apt-get -y update
 apt-get -y install zlib1g-dev uuid-dev libmnl-dev gcc make curl git autoconf autogen automake pkg-config netcat-openbsd jq
 apt-get -y install autoconf-archive lm-sensors nodejs python python-mysqldb python-yaml
 
