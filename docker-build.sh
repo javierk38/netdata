@@ -10,6 +10,8 @@ DEBIAN_FRONTEND=noninteractive
 
 #echo "deb http://ftp.nl.debian.org/debian/ jessie main" > /etc/apt/sources.list
 #echo "deb http://security.debian.org/debian-security jessie/updates main" >> /etc/apt/sources.list
+echo "deb http://ftp.us.debian.org/debian/ jessie main" > /etc/apt/sources.list
+#echo "deb http://security.debian.org/debian-security jessie/updates main" >> /etc/apt/sources.list
 
 # install dependencies for build
 
